@@ -1,19 +1,19 @@
 package com.company;
 
 public abstract class Hero implements HavingSuperAbility {
-    public int getHealth() {
+    public double getHealth() {
         return health;
     }
 
-    public void setHealth(int health) {
+    public void setHealth(double health) {
         this.health = health;
     }
 
-    public int getDamage() {
+    public double getDamage() {
         return damage;
     }
 
-    public void setDamage(int damage) {
+    public void setDamage(double damage) {
         this.damage = damage;
     }
 
@@ -25,7 +25,7 @@ public abstract class Hero implements HavingSuperAbility {
         this.typeOfSupSkill = typeOfSupSkill;
     }
 
-    private int health;
-    private int damage;
+    private double health;
+    private double damage;
     private String typeOfSupSkill;
 }
